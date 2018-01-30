@@ -1,1 +1,1 @@
-# pytco-frontend-season-content
+# pytco-frontend-content
