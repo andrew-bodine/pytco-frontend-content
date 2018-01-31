@@ -159,7 +159,7 @@ Description:
 
 Title: PYTCo’s Production of “Kiss Me Kate”
 Image: {{cloudfront}}/season/kiss-me-kate-2017.jpg
-Featured: No
+Featured: Yes
 DateRanges: [
     07/21/2017-07/22/2017
 ]
@@ -187,7 +187,7 @@ TimeRanges: [
 
 Title: PYTCo Theatre Youth Summer Camp Production
 Image: {{cloudfront}}/about/youth-theatre-camp.jpg
-Featured: No
+Featured: Yes
 DateRanges: [
     07/27/2017-07/28/2017
 ]
@@ -241,7 +241,7 @@ Description:
 
 Title: “Madeline’s Christmas” Dessert-Theatre
 Image: {{cloudfront}}/season/madeline-2017.jpg
-Featured: No
+Featured: Yes
 DateRanges: [
     11/17/2017-11/18/2017
 ]
