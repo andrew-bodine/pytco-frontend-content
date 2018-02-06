@@ -3,7 +3,7 @@ branches:
     - generate
 
 script:
-  - echo Validating content prior to publish
+  - npm test
 
 after_success:
   - echo Publishing content to AWS S3 buckets

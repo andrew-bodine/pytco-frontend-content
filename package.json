@@ -1,0 +1,9 @@
+{
+    "name": "pytco-frontend-content",
+    "scripts": {
+        "test": "node validate.js"
+    },
+    "dependencies": {
+        "browserify": "^15.2.0"
+    }
+}
