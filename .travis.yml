@@ -1,0 +1,9 @@
+branches:
+  only:
+    - generate
+
+script:
+  - echo "TODO: Validating content prior to publish."
+
+after_success:
+  - echo "TODO: Publishing content to AWS S3 buckets."
