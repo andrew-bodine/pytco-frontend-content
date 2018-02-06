@@ -4,8 +4,9 @@ var files = fs.readdirSync(__dirname);
 var promises = [];
 
 files.forEach(function(f) {
-    if (f === ".git") return;
+    if (f.startsWith(".")) return;
     if (f === "node_modules") return;
+    if (f === "tasks") return;
 
     var path = "./" + f;
 

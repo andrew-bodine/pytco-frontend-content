@@ -11,4 +11,7 @@ script:
   - npm test
 
 after_success:
-  - echo Publishing content to AWS S3 buckets
+  - echo Compiling client-side parser.
+  - npm build
+  - echo Publishing parser and content to AWS S3 bucket.
+  # - npm publish

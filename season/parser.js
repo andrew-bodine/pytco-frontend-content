@@ -1,6 +1,6 @@
 
-// Event constructor.
-function Event() {
+// SeasonEvent constructor.
+function SeasonEvent() {
     this.title = "";
     this.image = "";
     this.featured = false;
@@ -12,7 +12,7 @@ function Event() {
 
 // SeasonParser is a client-side implementation that can be utilized to parse
 // season data serialized into a human-readable format for PYTCo to manage.
-module.exports = function Parse(ds) {
+module.exports = function ParseSeasonEvents(ds) {
     var events = [];
 
     // Split the data string on the section delimeter ##.
@@ -22,7 +22,7 @@ module.exports = function Parse(ds) {
         // If there is nothing in the section, then skip it.
         if (lines.length <= 1) return;
 
-        var event = new Event();
+        var event = new SeasonEvent();
 
         var parsingDescription = false;
         var parsingDateRanges = false;
@@ -97,7 +97,7 @@ module.exports = function Parse(ds) {
             }
         })
 
-        if (JSON.stringify(event) === JSON.stringify(new Event())) return;
+        if (JSON.stringify(event) === JSON.stringify(new SeasonEvent())) return;
 
         event.description = event.description.trimRight();
 
