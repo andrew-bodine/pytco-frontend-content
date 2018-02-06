@@ -16,18 +16,18 @@ module.exports = function (grunt) {
     }
   });
 
-  // grunt.config.set('cloudfront', {
-  //   options: {
-  //     accessKeyId: credentials.accessKeyId,
-  //     secretAccessKey: credentials.secretAccessKey,
-  //     distributionId: credentials.cloudfront.id
-  //   },
-  //   html: {
-  //     options: {
-  //       defaultRootObject: 'index.html'
-  //     }
-  //   }
-  // });
+  grunt.config.set('cloudfront', {
+    options: {
+      accessKeyId: credentials.accessKeyId,
+      secretAccessKey: credentials.secretAccessKey,
+      distributionId: credentials.cloudfront.id
+    },
+    html: {
+      options: {
+        invalidations: '**/*.json'
+      }
+    }
+  });
 
   grunt.loadNpmTasks('grunt-aws');
 };

@@ -24,4 +24,4 @@ after_success:
   - echo Publishing parser and content to AWS S3 bucket.
   - grunt s3
   - echo Invalidating AWS Cloudfront cache.
-  # - grunt cloudfront
+  - grunt cloudfront
