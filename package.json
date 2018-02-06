@@ -1,15 +1,14 @@
 {
     "name": "pytco-frontend-content",
     "scripts": {
-        "test": "node validate.js",
-        "build": "grunt build"
+        "test": "node validate.js"
     },
     "devDependencies": {
         "grunt": "^1.0.1",
-        "grunt-browserify": "^5.2.0",
+        "grunt-aws": "^0.6.2",
         "grunt-contrib-clean": "^1.1.0",
-        "grunt-contrib-concat": "^1.0.1",
-        "grunt-contrib-uglify": "^3.3.0",
-        "include-all": "^4.0.3"
+        "grunt-shell": "^2.1.0",
+        "include-all": "^4.0.3",
+        "mkdirp": "^0.5.1"
     }
 }

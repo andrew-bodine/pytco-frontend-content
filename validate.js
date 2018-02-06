@@ -1,7 +1,15 @@
-var fs = require('fs');
+var
+    fs = require('fs'),
+    mkdirp = require('mkdirp')
+;
 
 var files = fs.readdirSync(__dirname);
 var promises = [];
+
+var exportJSON = false;
+if (process.argv.length > 2) {
+    exportJSON = true
+}
 
 files.forEach(function(f) {
     if (f.startsWith(".")) return;
@@ -39,6 +47,13 @@ function createValidationPromise(path) {
             var result = parse(String(data));
             if (result.length == 0) {
                 return reject("Failed to parse " + path + "/" + f);
+            }
+
+            if (exportJSON) {
+                var exportPath = ".build" + path.slice(1);
+                mkdirp.sync(exportPath);
+                exportPath += "/" + f.split(".")[0] + ".json";
+                fs.writeFileSync(exportPath, JSON.stringify(result));
             }
         })
 

@@ -2,16 +2,26 @@ branches:
   only:
     - generate
 
+sudo: required
+
 language: node_js
 
 node_js:
   - node
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get -qq install -y jq
+  - jq ".accessKeyId |= \"$AWS_ID\" | .secretAccessKey |= \"$AWS_SECRET\" | .s3.bucket |= \"$S3_BUCKET\" | .cloudfront.id |= \"$CLOUDFRONT_ID\" | .cloudfront.url |= \"$CLOUDFRONT_URL\"" credentials.tmpl.json > credentials.json
+  - ls -l credentials.json
 
 script:
   - npm test
 
 after_success:
   - echo Compiling client-side parser.
-  - npm build
+  - grunt compile
   - echo Publishing parser and content to AWS S3 bucket.
-  # - npm publish
+  # - grunt s3
+  - echo Invalidating AWS Cloudfront cache.
+  # - grunt cloudfront
