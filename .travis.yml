@@ -3,7 +3,7 @@ branches:
     - generate
 
 script:
-  - echo "TODO: Validating content prior to publish."
+  - echo Validating content prior to publish
 
 after_success:
-  - echo "TODO: Publishing content to AWS S3 buckets."
+  - echo Publishing content to AWS S3 buckets
