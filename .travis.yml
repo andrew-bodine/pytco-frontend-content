@@ -1,6 +1,6 @@
 branches:
   only:
-    - generate
+    - master
 
 sudo: required
 
