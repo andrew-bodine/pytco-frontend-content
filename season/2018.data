@@ -19,7 +19,7 @@ Description:
 ##
 
 Title: Board Meeting
-Image: ##
+Image: {{cloudfront}}/static/PYTCo_Logo.png
 
 Title: Board Meeting
 Image: {{cloudfront}}/static/PYTCo_Logo.png
@@ -47,7 +47,7 @@ Description:
 ##
 
 Title: "A Night on the Radio"
-Image: ##
+Image: {{cloudfront}}/static/PYTCo_Logo.png
 
 Title: Board Meeting
 Image: {{cloudfront}}/static/PYTCo_Logo.png
