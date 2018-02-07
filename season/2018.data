@@ -44,7 +44,7 @@ Description:
 ##
 
 Title: "A Night on the Radio"
-Image: {{cloudfront}}/static/PYTCo_Logo.png
+Image: {{cloudfront}}/static/noimage.png
 Featured: Yes
 DateRanges: [
     02/24/2018
