@@ -44,7 +44,7 @@ Description:
 ##
 
 Title: "A Night on the Radio"
-Image: {{cloudfront}}/static/noimage.png
+Image: {{cloudfront}}/static/microphone.jpg
 Featured: Yes
 DateRanges: [
     02/24/2018
@@ -99,24 +99,6 @@ Description:
 
 ##
 
-Title: PYTCo Theatre Academy
-Image: {{cloudfront}}/season/theatre-academy.jpg
-Featured: No
-DateRanges: [
-    07/10/2018-08/10/201
-]
-TimeRanges: []
-Location: Penn Yan Academy, 305 Court St., Penn Yan, NY 14527
-Description:
-    PYA Auditorium
-
-    Rehearsals:
-        - July 10th – August 10th, 2018
-    Production:
-        - August 12 at 7:00 and August 13 at 2:00
-
-##
-
 Title: PYTCo Theatre Youth Summer Camp
 Image: {{cloudfront}}/season/theatre-youth-camp-2017.jpg
 Featured: No
@@ -137,7 +119,7 @@ Description:
 ##
 
 Title: PYTCo’s Summer Production
-Image: {{cloudfront}}/season/kiss-me-kate-2017.jpg
+Image: {{cloudfront}}/static/allshookup.jpg
 Featured: Yes
 DateRanges: [
     08/09/2018-08/10/2018
@@ -155,7 +137,7 @@ Description:
 
 Title: PYTCo’s Summer Production
 DateRanges: [
-    08/11/2017
+    08/11/2018
 ]
 TimeRanges: [
     14:00-17:00
@@ -178,23 +160,6 @@ Description:
     which was directed by Grace Knapton, and features 80 children from
     kindergarten to eighth grade. Tickets are $8.00.
 
-##
-
-Title: PYTCo Theatre Academy
-Image: {{cloudfront}}/season/theatre-academy.jpg
-Featured: No
-DateRanges: [
-    07/10/2017-08/10/2017
-]
-TimeRanges: []
-Location: Penn Yan Academy, 305 Court St., Penn Yan, NY 14527
-Description:
-    PYA Auditorium
-
-    Rehearsals:
-        - July 10th – August 10th, 2017
-    Production:
-        - August 12 at 7:00 and August 13 at 2:00
 ##
 
 Title: Sampson Theatre Haunted House
@@ -222,7 +187,7 @@ Title: “Madeline’s Christmas” Dessert-Theatre
 Image: {{cloudfront}}/season/madeline-2017.jpg
 Featured: Yes
 DateRanges: [
-    11/17/2017-11/18/2017
+    11/16/2018-11/17/2018
 ]
 TimeRanges: [
     18:00-21:00
@@ -240,7 +205,7 @@ Title: StarShine: Sampson Theatre’s Doors are Open
 Image: {{cloudfront}}/season/starshine-2017.jpg
 Featured: No
 DateRanges: [
-    12/01/2017
+    12/07/2018
 ]
 TimeRanges: [
     17:00
