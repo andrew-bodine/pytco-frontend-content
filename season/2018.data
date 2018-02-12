@@ -125,7 +125,7 @@ DateRanges: [
     08/09/2018-08/10/2018
 ]
 TimeRanges: [
-    19:00-22:00
+    19:00
 ]
 Location: Penn Yan Academy, 305 Court St., Penn Yan, NY 14527
 Description:
@@ -140,7 +140,7 @@ DateRanges: [
     08/11/2018
 ]
 TimeRanges: [
-    14:00-17:00
+    14:00
 ]
 
 ##
@@ -152,7 +152,7 @@ DateRanges: [
     07/26/2018-07/28/2018
 ]
 TimeRanges: [
-    19:00-21:00
+    19:00
 ]
 Location: Penn Yan Academy, 305 Court St., Penn Yan, NY 14527
 Description:
@@ -190,7 +190,7 @@ DateRanges: [
     11/16/2018-11/17/2018
 ]
 TimeRanges: [
-    18:00-21:00
+    18:00
 ]
 Location: TBD
 Description:
@@ -208,7 +208,7 @@ DateRanges: [
     12/07/2018
 ]
 TimeRanges: [
-    17:00
+    17:00-19:00
 ]
 Location: Sampson Theatre, 130 East Elm St., Penn Yan, NY 14527
 Description:
